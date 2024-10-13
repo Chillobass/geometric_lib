@@ -1,13 +1,12 @@
 import circle
 import square
 
-
 figs = ['circle', 'square']
 funcs = ['perimeter', 'area']
 sizes = {}
 
 def calc(fig, func, size):
-	/*
+	"""
     	Вычисляет значение указанной функции (периметр или площадь) для заданной фигуры (круг или квадрат) и выводит результат.
     
 	    Аргументы:
@@ -20,7 +19,7 @@ def calc(fig, func, size):
 		    вывод -> 25п
 		    calc('square', 'perimeter', [4])
 		    вывод -> 16
-	*/
+	"""
 	assert fig in figs
 	assert func in funcs
 
